@@ -49,7 +49,7 @@ const App = () => {
       <Navbar />
       <Header />
       <div className="app">
-        <h1>Publications</h1>
+        <h5>Publications</h5>
         <ul>
           {publications.map((publication) => (
             <li key={publication._id}>
@@ -57,7 +57,7 @@ const App = () => {
             </li>
           ))}
         </ul>
-        <h2>Add New Publication</h2>
+        <h8>Add New Publication</h8>
         <form onSubmit={createPublication}>
           {error && <p>{error}</p>}
           <label>

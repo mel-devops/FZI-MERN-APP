@@ -4,7 +4,7 @@ import React from 'react';
 const Header = () => {
   return (
     <header className="jumbotron text-center">
-      <h2>Welcome to My App</h2>
+      <h2>Zen Archives</h2>
     </header>
   );
 };
