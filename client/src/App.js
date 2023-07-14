@@ -87,7 +87,7 @@ const App = () => {
             />
           </label>
           <br />
-          <button type="submit">Add</button>
+          <button type="submit" className="greyButton">Add</button>
         </form>
       </div>
       <Footer />
