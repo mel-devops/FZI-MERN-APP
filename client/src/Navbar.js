@@ -19,7 +19,7 @@ const Navbar = () => {
             <a className="nav-link" href="/about">About</a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="/donate">Donate</a>
+            <a className="nav-link" href="/Membership">Membership</a>
           </li>
           {/* Add more navigation items as needed */}
         </ul>
